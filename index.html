@@ -1,0 +1,68 @@
+<html>
+<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="style2.css">
+		<link rel="preconnect" href="https//fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?
+		family=KoHo:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="hero">
+		<div class="navbar">
+			<img src="images/logo.png" height="300px" width="300px">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="lifestyle.html">Lifestyle</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
+				</ul>
+				
+		</div>
+		<div class="banner">
+					<div class="left-column">
+					<div class="search-box">
+						<img src="images/search.jpg" id="enter">
+						<input type="search" id="myInput">
+					</div>
+					<h1>Republic of<span> Singapore</span></h1>
+					<h3> Exquisite and luxurious<span> sites and attractions</span></h3>
+					<p>Singapore is exceptionally a modern city, but also a 
+					sovereign island city-state <br>in maritime Southeast Asia.
+					  It retains a huge sense of personality, character, 
+					  and a strong appreciation for the natural world.
+					</p>
+					<div class="btn">
+						<a href="About.html"><button type="button" class="primary-btn">Learn More</button></a>
+						<a href="https://youtu.be/jDdbeee68nQ"><button type="button">Watch Video</button></a>
+						
+					</div>
+					<div class="social-icons">
+					<a target="_blank" href="https://www.twitter.com"><img src="images/twitter.jpg"></a>
+					<a target="_blank" href="https://www.instagram.com"><img src="images/instagram.jpg"></a>
+					<a target="_blank" href="https://www.pinterest.com"><img src="images/pinterest.jpg"></a>
+					<a target="_blank" href="https://www.facebook.com"><img src="images/facebook.jpg"></a>
+					</div>
+					</div>
+					<div class="right-column">
+						<img src="images/2.jpg">
+					</div>
+		</div>
+		</div>
+		<script>
+			var enter= document.getElementById("enter");
+			document.getElementById("myInput").addEventListener("search", myFunction);
+
+			function myFunction() {
+			var x = document.getElementById("myInput");
+			document.getElementById("enter").innerHTML = "You are searching for: " + x.value;
+			}
+			enter.onclick=function(){
+			
+			}
+</script>
+
+</body>
+</html>
